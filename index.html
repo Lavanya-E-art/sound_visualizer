@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sound Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+  <main>
+    <h1>🎧 Personalized Music Player 🎧</h1>
+    <select id="trackSelector">
+        <option value="melody.mp3">Melody Vibe</option>
+        <option value="song1.mp3">Chill Beat</option>
+        <option value="song2.mp3">Synth Vibe</option>
+    </select>
+    <button onclick="togglePlay()">▶️ Play / Pause</button>
+    <p>Enjoy this interactive audio-visual experience. Built with p5.js.</p>
+    <div id="canvas-container"></div>
+    <script src="sketch.js"></script>
+  </main>
+</body>
+</html>
